@@ -6,10 +6,14 @@ import './index.css';
 import {initializePhraseAppEditor} from 'react-intl-phraseapp'
 
 var config = {
-  projectId: '<YOUR_PROJECT_ID>'
+  projectId: '<YOUR_PROJECT_ID>',
+  phraseEnabled: true,
+  prefix: '[[__',
+  suffix: '__]]'
 }
 
-initializePhraseAppEditor(config, true);
+initializePhraseAppEditor(config);
+
 
 ReactDOM.render(
   <IntlProvider locale="en">
