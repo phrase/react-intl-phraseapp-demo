@@ -6,7 +6,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-intl": "^2.2.3",
-    "react-intl-phraseapp": "file:../react-intl-phraseapp"
+    "react-intl-phraseapp": "^0.1.0"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
