@@ -9,12 +9,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>
-            <FormattedMessage
-                    id="welcome.headline"
-                    defaultMessage={`Welcome to React and Phrase`}
-                />
-          </h2>
+          <h2>{this.props.translate("welcome.headline")}</h2>
         </div>
         <p className="App-intro">
           <FormattedMessage
