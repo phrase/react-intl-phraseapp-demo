@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {FormattedMessage} from 'react-intl-phraseapp';
+import { FormattedMessage, injectIntl } from 'react-intl-phraseapp';
 import logo from './logo.svg';
 import './App.css';
 
@@ -13,13 +13,13 @@ class App extends Component {
         </div>
         <p className="App-intro">
           <FormattedMessage
-                    id="welcome.text"
-                    defaultMessage={`We hope this example will help you integrate PhraseApp into your react app using react-intl`}
-                />
+            id="welcome.text"
+            defaultMessage={`We hope this example will help you integrate PhraseApp into your react app using react-intl`}
+          />
         </p>
       </div>
     );
   }
 }
 
-export default App;
+export default injectIntl(App);
