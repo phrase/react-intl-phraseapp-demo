@@ -6,10 +6,10 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-intl": "^2.2.3",
-    "react-intl-phraseapp": "^0.3.0"
+    "react-intl-phraseapp": "^0.2.0"
   },
   "devDependencies": {
-    "react-scripts": "^1.1.1"
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
