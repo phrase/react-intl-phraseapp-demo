@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FormattedMessage, injectIntl } from 'react-intl-phraseapp';
-import logo from './logo.svg';
 import './App.css';
+import logo from './logo.svg';
 
 class App extends Component {
   render() {
@@ -13,10 +13,11 @@ class App extends Component {
         </div>
         <p className="App-intro">
           <FormattedMessage
-            id="welcome.text"
+            id="welcome.intro"
             defaultMessage={`We hope this example will help you integrate PhraseApp into your react app using react-intl`}
           />
         </p>
+        <p>{this.props.formatMessage({ id: "welcome.text" })}</p>
       </div>
     );
   }

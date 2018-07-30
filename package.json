@@ -1,12 +1,12 @@
 {
   "name": "react-intl-phraseapp-demo",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-intl": "^2.2.3",
-    "react-intl-phraseapp": "^0.2.0"
+    "react-intl-phraseapp": "^0.3.0"
   },
   "devDependencies": {
     "react-scripts": "^1.1.1"
