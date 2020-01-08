@@ -1,20 +1,32 @@
 {
   "name": "react-intl-phraseapp-demo",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-intl": "^2.2.3",
-    "react-intl-phraseapp": "^0.4.0"
+    "react-intl-phraseapp": "^1.0.0"
   },
   "devDependencies": {
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
