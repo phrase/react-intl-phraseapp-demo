@@ -14,9 +14,13 @@ var config = {
 
 initializePhraseAppEditor(config);
 
+const messages = {
+  'welcome.headline': 'This headline is visible when "phraseEnabled" config option is set to false'
+};
+
 
 ReactDOM.render(
-  <IntlProvider locale="en">
+  <IntlProvider locale="en" messages={messages}>
     <App />
   </IntlProvider>,
   document.getElementById('root')
