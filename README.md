@@ -25,6 +25,6 @@ Start the server:
 
 and then open the app at: [http://localhost:3000](http://localhost:3000/)
 
-## Support
+## Get help / support
 
-Questions? [Contact us](https://phraseapp.com/contact).
+Please contact [support@phrase.com](mailto:support@phrase.com?subject=[GitHub]%20) and we can take more direct action toward finding a solution.
