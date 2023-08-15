@@ -4,18 +4,19 @@ This demo project shows how to integrate the [PhraseApp In-Context Editor](https
 
 ## Install
 
-    npm install
+    yarn install
 
 ## Configure
 
-In order to run the demo you need to provide your phrase project ID. To do so:
+In order to run the demo you need to provide your phrase project ID and account ID. To do so:
 
 - register at [phrase.com](https://phrase.com),
 - create & setup new project (or use existing if you got one),
 - go to "Project Settings",
 - from the left hand side menu, select "API" tab,
 - copy the project ID,
-- inside `index.js` file find & replace `<YOUR_PROJECT_ID>` with the project ID you have just copied.
+- you can find the account ID in your organizations page
+- inside `index.js` file find & replace `projectId` and `accountId` with your own IDs
 
 ## Run
 
