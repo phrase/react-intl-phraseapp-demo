@@ -1,4 +1,10 @@
-# react-intl-phraseapp Demo
+# react-intl-phraseapp Demo (DEPRECATED)
+
+![maintenance-status](https://img.shields.io/badge/maintenance-deprecated-red.svg)
+
+> This repository for the demo app of Phrase Strings In-Context Editor with `react-intl` has been deprecated and is no longer maintained. Please refer to the [react-intl-phraseapp](https://github.com/phrase/react-intl-phraseapp) repository, where the demo has been moved to and will be maintained.
+
+## Introduction
 
 This demo project shows how to integrate the [PhraseApp In-Context Editor](https://phraseapp.com/) into a React app using [react-intl](https://github.com/yahoo/react-intl) for localization via the [react-intl-phraseapp](https://github.com/phrase/react-intl-phraseapp) plugin.
 
