@@ -5,7 +5,8 @@ import App from './App';
 import { initializePhraseAppEditor } from 'react-intl-phraseapp';
 
 var config = {
-  projectId: '00453ba3c0763049c73f0a04ed067e66',
+  projectId: '00000000000000004158e0858d2fa45c',
+  accountId: '0bed59e5',
   phraseEnabled: true,
   prefix: '[[__',
   suffix: '__]]'

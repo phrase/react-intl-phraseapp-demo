@@ -21,7 +21,7 @@ In order to run the demo you need to provide your phrase project ID. To do so:
 
 Start the server:
 
-    npm start
+    yarn && yarn start
 
 and then open the app at: [http://localhost:3000](http://localhost:3000/)
 
